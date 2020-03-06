@@ -1,0 +1,11 @@
+git status
+git add nombrearchivo ---> Solo agregar un archivo
+ó 
+git add -A --->para agregar todos los archivos y cambios
+git commit -m "Mensaje"  -->Comentario
+git push origin master -->Esto es para el principal
+git push Angy master --> Esto es para mi repositorio
+
+para guardarlo en mi carpeta 
+
+git pull origin master
