@@ -1,0 +1,22 @@
+http://jquery-manual.blogspot.com/2015/08/tutorial-de-python-3-y-pyqt5-interfaz.html
+http://jquery-manual.blogspot.com/2015/06/4-python-pyqt-interfaz-grafica-abrir.html
+https://www.youtube.com/watch?v=5ezzXSkf6YY --> Interaccion entre ventanas
+
+pyuic5 -x nombre.ui -o nombre2.py --> para cambiar de ui a py y poder ver el código
+
+pyrcc5 -o logo1_rc.py logo1.qrc --> para evitar error al manejar imagenes
+Colores de los botones: 217, 220, 217
+Colores de la interfaz Principal: 23, 217, 255
+
+valores por default.
+Valores maximos:
+	Alto:16777215
+	ancho: 16777215
+
+https://www.qtcentre.org/threads/20895-PyQt4-Want-to-connect-a-window-s-close-button
+
+https://www.youtube.com/watch?v=oqRCFVjSXiM
+
+https://www.youtube.com/watch?v=UM6yuW3yoNc --> excel a postgres
+
+https://ernestocrespo13.wordpress.com/2011/07/07/manejo-de-fecha-y-hora-con-pyqt-parte-5-2/ --> datetime edit

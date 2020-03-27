@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="LogoAdmiracion">
+    <file>Admi.png</file>
+  </qresource>
+</RCC>
