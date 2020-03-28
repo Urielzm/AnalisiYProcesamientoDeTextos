@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="LogoEscudoFi">
+    <file>../../Imagenes/InterfazPrincipal/escudo_fi_color.png</file>
+  </qresource>
+</RCC>
