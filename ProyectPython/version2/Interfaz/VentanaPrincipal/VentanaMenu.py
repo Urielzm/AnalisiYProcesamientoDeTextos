@@ -9,7 +9,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
 sys.path.append("..")
 from Dialogos.DialogoAviso.DialogoAvisos import Ui_DialogAviso
-from VentanaPrincipal import Ui_MainWindow
+from ventanaprincipal import Ui_MainWindow
 from VentanaPrincipal_url import Ui_MainWindow_URL
 from Backend.Resumen import Resumen
 
