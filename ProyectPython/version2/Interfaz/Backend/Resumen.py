@@ -14,6 +14,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 #nltk.download('punkt')
 class Resumen(object):
 
+<<<<<<< HEAD
     def tablaFrecuencias(self, texto):
         # Se crean 2 arreglos y 1 variable:
 
@@ -23,6 +24,17 @@ class Resumen(object):
 
         # text para definir el texto a resumir.
         text=texto
+=======
+    def tablaFrecuencias(self, t1):
+        # Se crean 2 arreglos y 1 variable:
+
+        # arreglo 1) - SW - configura el método de entrada o idioma en el que se 
+                            # van a trabajar las palabras en el metodo words de stopwords, en este caso, Español.
+        SW = set(stopwords.words("spanish"))
+
+        # text para definir el texto a resumir.
+        text=t1
+>>>>>>> 7f9042e9f86e872e5749f8dd61c7fabb15d0e3e6
         # arreglo 2) - words - almacena el texto en el método word_tokenize para 
                                 # previamente darle valor.
         words = word_tokenize(text)
@@ -43,7 +55,11 @@ class Resumen(object):
 
         #Muestra la tabla de frecuencias de cada palabra.
         #freqTable
+<<<<<<< HEAD
         #print(freqTable)
+=======
+        print(freqTable)
+>>>>>>> 7f9042e9f86e872e5749f8dd61c7fabb15d0e3e6
         return freqTable
 
     def oracionesYvalorizacion(self, freqTable2, text1):
@@ -69,12 +85,21 @@ class Resumen(object):
         #Muestra las oraciones ya valorizadas con su respectivo puntaje.
         #sentenceValue
 
+<<<<<<< HEAD
         #print(sentenceValue)
         return sentenceValue
 
     def resumir(self, texto, sentencias):
         #table=tablaFrequencias
         sentenceValue2=sentencias
+=======
+        print(sentenceValue)
+        return sentenceValue
+
+    def resumir(self, texto):
+        table=self.tablaFrecuencias(texto)
+        sentenceValue2=self.oracionesYvalorizacion(table, texto)
+>>>>>>> 7f9042e9f86e872e5749f8dd61c7fabb15d0e3e6
         sentences = sent_tokenize(texto)
         # Se crea una variable donde se almacena la suma de los valores.
         sumValues = 0
@@ -100,5 +125,10 @@ class Resumen(object):
 
         # Se imprime el resumen.
         res=str("\n"+"\n"+summary)
+<<<<<<< HEAD
         #print(res)
         return res
+=======
+        print("\n"+"\n"+summary)
+        return res, table
+>>>>>>> 7f9042e9f86e872e5749f8dd61c7fabb15d0e3e6
