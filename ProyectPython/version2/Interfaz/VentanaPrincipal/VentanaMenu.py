@@ -50,7 +50,6 @@ class Ui_Form(object):
 
     def abrirVentanaPrincipal(self):
         self.ventana0=QtWidgets.QMainWindow()
-        #self.ui0=Ui_FormVentanaPrincipal()
         self.ui0=Ui_MainWindow()
         self.ui0.setupUi(self.ventana0)
         self.ventana0.show()
