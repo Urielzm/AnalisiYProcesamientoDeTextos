@@ -107,7 +107,7 @@ class Ui_MainWindow(object):
         self.textEdit_Salida_Resumen_Obtenido.setText(str(res))
         self.textEdit_Salida_Tabla_Frecuencias.setText(str(tabla_frec_string))
         self.textEdit_Salida_Organizacion_Valorizacion.setText(str(oracionesYvalorizacion_string))        
-        self.abrirDialogoAviso("Hola")
+        self.abrirDialogoAviso("Resumen listo")
 
     def convertirAString(self, diccionario):
         string=""
