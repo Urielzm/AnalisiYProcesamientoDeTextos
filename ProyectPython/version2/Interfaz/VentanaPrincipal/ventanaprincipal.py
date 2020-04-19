@@ -95,6 +95,7 @@ class Ui_MainWindow(object):
         self.pushButton_Salir.clicked.connect(MainWindow.close)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
+
     def imprime(self):
         text=self.textEdit_Entrada_de_texto.toPlainText()
         tabla_frecuencias=self.r1.tablaFrecuencias(text)
@@ -106,7 +107,7 @@ class Ui_MainWindow(object):
         self.textEdit_Salida_Resumen_Obtenido.setText(str(res))
         self.textEdit_Salida_Tabla_Frecuencias.setText(str(tabla_frec_string))
         self.textEdit_Salida_Organizacion_Valorizacion.setText(str(oracionesYvalorizacion_string))        
-        self.abrirDialogoAviso("Resumen listo")
+        self.abrirDialogoAviso("Hola")
 
     def convertirAString(self, diccionario):
         string=""
