@@ -95,7 +95,6 @@ class Ui_MainWindow(object):
         self.pushButton_Salir.clicked.connect(MainWindow.close)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-
     def imprime(self):
         text=self.textEdit_Entrada_de_texto.toPlainText()
         tabla_frecuencias=self.r1.tablaFrecuencias(text)
@@ -133,6 +132,7 @@ class Ui_MainWindow(object):
         self.label_titulo.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:28pt; font-weight:600; color:#c8371a;\">Resumen</span></p></body></html>"))
         self.label_Texto_Org_Y_Valorizacion.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600; color:#ff0000;\">Oraciones y Valorización</span></p></body></html>"))
         self.menuArchivo.setTitle(_translate("MainWindow", "Archivo"))
+
     
 
 import Logos.LogoVentanaInicio.LogoEscudoFi_rc
