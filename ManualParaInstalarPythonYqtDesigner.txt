@@ -1,0 +1,19 @@
+-------------------------
+Paso1:
+-------------------------
+Instalar: python-3.7.2-amd64
+
+Notas:
+Cuando se este instalando:
+-->Sin precompilar las librerias estandar (Desmarcada)
+
+o descargarlo desde: https://www.python.org/downloads/
+-------------------------
+Paso2:
+-------------------------
+Instalar: Qt Designer Setup
+o descargar desde aquí: https://build-system.fman.io/qt-designer-download
+
+-------------------------
+Listo:
+-------------------------
